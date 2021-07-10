@@ -1,3 +1,14 @@
+body{
+    font-family: 'Barlow', serif;
+    text-align: center;
+}
+
+.font-f{
+    font-family: 'Fraunces',serif;
+}
+
+
+
 .no-padding{
     padding: 0 !important;
     margin: 0 !important;
@@ -99,14 +110,26 @@
     padding-top: 3rem;
 }
 
+/* last section */
 
-/* gallery */
 
-.gallery-img{
-    object-fit: cover;
+.last-section{
+    text-align: center;
+    background-color: hsl(168, 34%, 41%);
+    color: hsl(167, 40%, 24%);
+    padding-bottom: 3rem;
 }
 
+.last-text{
+    padding: 0 3rem;
+}
 
+.last-header{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
 
-
-
+.icon{
+    color: hsl(167, 40%, 24%);
+    padding: 0 1rem;
+}
