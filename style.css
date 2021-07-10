@@ -1,3 +1,7 @@
+.no-padding{
+    padding: 0 !important;
+    margin: 0 !important;
+}
 /* navbar */
 .navbar-inner{
     background: transparent;
@@ -48,10 +52,7 @@
     object-fit: cover;
 }
 
-.no-padding{
-    padding: 0 !important;
-    margin: 0 !important;
-}
+
 
 /* graphic-design and photography */
 
@@ -77,4 +78,35 @@
 
 
 /* testimonial */
+
+.testimonial-row{
+    padding: 0 5rem;
+    text-align: center;
+}
+.card-img-top{
+    width: 30%;
+    border-radius: 50%;
+    margin: 3rem 8rem ;
+    
+}
+
+.card{
+    border: none;
+}
+
+.testimonial-header{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+
+/* gallery */
+
+.gallery-img{
+    object-fit: cover;
+}
+
+
+
+
 
