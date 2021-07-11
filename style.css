@@ -1,4 +1,5 @@
 body{
+    font-size: 18px;
     font-family: 'Barlow', serif;
     text-align: center;
 }
@@ -19,7 +20,7 @@ body{
 }
 
 .navbar{
-    padding: 0 1.5rem;
+    padding: 1rem 1.5rem;
 }
 
 .nav-item{
@@ -29,6 +30,11 @@ body{
     outline: none;
     border: none;
 }
+
+.navbar-brand{
+    font-weight: 600;
+}
+
 
 
 
@@ -46,13 +52,13 @@ body{
 }
 
 .title-header{
-    margin-top: 3rem;
+    margin-top: 5%;
     color: white;
-    font-size: 5rem;
+    font-size: 300%;
 }
 
 .arrow-img{
-    margin-top: 6rem;
+    margin-top: 5%;
 }
 
 
@@ -63,7 +69,37 @@ body{
     object-fit: cover;
 }
 
+.transform-col{
+    text-align: left;
+}
 
+.transform-header{
+    margin: 25% 30% 5% 20%;
+    color:hsl(212, 27%, 19%)
+}
+
+.transform-text1{
+    margin: 0 20% 4% 20%;
+    color: hsl(232, 10%, 55%);
+    
+}
+
+.transform-text2{
+    margin-left: 21%;
+    margin-bottom: 15%;
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces',serif;
+}
+
+.u-text-1{
+    text-decoration: underline;
+    text-decoration-color: hsl(51, 100%, 49%);
+}
+
+.u-text-2{
+    text-decoration: underline;
+    text-decoration-color: hsl(7, 99%, 70%);
+}
 
 /* graphic-design and photography */
 
@@ -86,7 +122,31 @@ body{
     background-size: cover;
 }
 
+.graphic-header{
+    
+    padding: 50% 0 5% 0;
+    font-family: 'Fraunces',serif;
+    color: hsl(167, 40%, 24%);
+}
 
+.graphic-text{
+   
+    padding: 0 25% 0 25%;
+    color:hsl(167, 40%, 24%)
+}
+
+.photo-header{
+    
+    padding: 50% 0 5% 0;
+    font-family: 'Fraunces',serif;
+    columns: hsl(198, 62%, 26%);
+
+}
+.photo-text{
+    
+    padding: 0 25% 0 25%;
+    color: hsl(198, 62%, 26%);
+}
 
 /* testimonial */
 
@@ -107,7 +167,28 @@ body{
 
 .testimonial-header{
     text-align: center;
-    padding-top: 3rem;
+    margin: 8rem 0 4rem 0;
+    font-family: 'Fraunces',serif;
+    color: hsl(210, 4%, 67%);
+}
+
+.card-body{
+    margin: 5rem 0 5rem 0;
+}
+
+.card-text{
+    padding-bottom: 3rem;
+    color: hsl(232, 10%, 55%);
+}
+
+.card-name{
+    font-family: 'Fraunces',serif;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%)
+}
+
+.card-profile{
+    color: hsl(210, 4%, 67%)
 }
 
 /* last section */
@@ -127,6 +208,7 @@ body{
 .last-header{
     padding-top: 5rem;
     padding-bottom: 3rem;
+    font-size: 2rem;
 }
 
 .icon{
